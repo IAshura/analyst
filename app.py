@@ -8,7 +8,7 @@ import streamlit as st
 sns.set(style='dark')
 
 #mengimport data
-all_data = pd.read_csv('https://raw.githubusercontent.com/Ashurinnn123/Data_Analyst_Dicoding/main/Submission/main_data.csv')
+all_data = pd.read_csv('https://raw.githubusercontent.com/IAshura/analyst/main/main_data.csv')
 
 datetime_columns = ['date']
 all_data.sort_values(by='date', inplace=True)
